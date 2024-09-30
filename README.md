@@ -17,6 +17,6 @@ A simple and intuitive weather forecasting application that uses the OpenWeather
 
 ## How to Use
 
-1. **Clone this repository to your local machine**:
+1. **Clone this repository to your local machine**;
    ```bash
    git clone https://github.com/Caioluizdasilva/weather_app.git
