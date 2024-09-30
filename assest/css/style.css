@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: 0;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #262626; /* Fundo escuro */
+    color: #fff; /* Texto em branco */
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+    background-color: #FFF;
+    padding: 28px 32px;
+    border-radius: 18px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    transition: 0.6s ease-out;
+}
+
+.search-box {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #18181b;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.search-box input {
+    width: 85%;
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.search-box input::placeholder {
+    color: #FFF; /* Placeholder branco */
+}
+
+.search-box button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.search-box button:hover {
+    color: #FFE608; /* Cor do ícone ao passar o mouse */
+}
+
+.search-box i {
+    color: #FFE608; /* Ícones em amarelo */
+    font-size: 1.5rem;
+}
+
+.weather-box {
+    text-align: center;
+    margin-top: 20px;
+    display: none; /* Inicialmente escondido */
+}
+
+.weather-box img {
+    width: 60%;
+    margin-top: 10px;
+}
+
+.weather-box .temperature {
+    color: #262626;
+    font-size: 4rem;
+    font-weight: 800;
+}
+
+.weather-box .description {
+    color: #262626;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-top: 10px;
+    text-transform: capitalize;
+}
+
+.weather-details {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    display: none; /* Inicialmente escondido */
+}
+
+.weather-details .humidity, .weather-details .wind {
+    display: flex;
+    align-items: center;
+    width: 48%;
+}
+
+.weather-details i {
+    color: #FFE608;
+    font-size: 26px;
+    margin-right: 10px;
+}
+
+.weather-details span, .weather-details p {
+    color: #262626;
+}
+
+.not-found {
+    display: none; /* Inicialmente escondido */
+    text-align: center;
+}
+
+.error-message {
+    color: red;
+    font-size: 1.2rem;
+    margin-top: 20px;
+}

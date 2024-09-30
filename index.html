@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="assest/css/style.css">
+    <title>Weather App</title>
+</head>
+
+<body>
+    <div class="container">
+        <!-- Search Box -->
+        <div class="search-box">
+            <i class="fa-solid fa-location-dot"></i>
+            <input type="text" placeholder="Enter your location">
+            <button><i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
+
+        <div class="not-found">
+            <p class="error-message">Oops! Location not found.</p>
+        </div>
+        
+        <div class="weather-box">
+            <p class="temperature">
+                <span></span>
+            </p>
+            <p class="description"></p>
+        </div>
+
+        <!-- Weather Details -->
+        <div class="weather-details">
+            <div class="humidity">
+                <i class="fa-solid fa-water"></i>
+                <div class="text">
+                    <span></span>
+                    <p>Humidity</p>
+                </div>
+            </div>
+
+            <div class="wind">
+                <i class="fa-solid fa-wind"></i>
+                <div class="text">
+                    <span></span>
+                    <p>Wind Speed</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/7c8801c017.js"></script>
+    <script src="assest/js/script.js"></script>
+</body>
+</html>
