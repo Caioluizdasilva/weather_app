@@ -10,10 +10,12 @@ A simple and intuitive weather forecasting application that uses the OpenWeather
 
 ## Technologies Used
 
-- ![HTML](https://img.icons8.com/color/48/000000/html-5.png) **HTML**
-- ![CSS](https://img.icons8.com/color/48/000000/css3.png) **CSS**
-- ![JavaScript](https://img.icons8.com/color/48/000000/javascript.png) **JavaScript**
-- ![OpenWeather API](https://img.icons8.com/color/48/000000/cloud.png) **OpenWeather API**
+<p>
+    <img src="https://img.icons8.com/color/48/000000/html-5.png" alt="HTML" style="display: inline-block; margin-right: 10px;"/>
+    <img src="https://img.icons8.com/color/48/000000/css3.png" alt="CSS" style="display: inline-block; margin-right: 10px;"/>
+    <img src="https://img.icons8.com/color/48/000000/javascript.png" alt="JavaScript" style="display: inline-block; margin-right: 10px;"/>
+    <img src="https://img.icons8.com/color/48/000000/cloud.png" alt="OpenWeather API" style="display: inline-block; margin-right: 10px;"/>
+</p>
 
 ## How to Use
 
